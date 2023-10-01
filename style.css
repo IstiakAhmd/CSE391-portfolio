@@ -1,0 +1,323 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #161414;
+    color: #fff;
+  }
+  
+  #desktop-nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .greet {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    color: #0f0;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #0f0;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f0f;
+  }
+  
+
+  .profile_text1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0f0;
+  }
+  
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0f0;
+  }
+  
+  /* Style the profile section */
+  #profile {
+    background-color: #111;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: green;
+    
+  }
+  
+  .profile_pic_container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #0f0;
+  }
+  
+  .profile_text2 {
+    font-size: 20px;
+    color: #0f0;
+    margin-bottom: 10px;
+  }
+  
+  .bracu{
+    color: #0f0;
+    text-decoration: None;
+    font-weight: bold;
+  }
+  
+  a.bracu:hover{
+    color: #f0f;
+
+  }
+  
+  .btn-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0f0;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f0f;
+    color: #000;
+  }
+  
+  #socials-container {
+    margin-top: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #about{
+    background-color: #111;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: green;
+    
+  }
+  .about-container{
+    background-color: #000000;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    
+  }
+  .about-pic-container img{
+    width: 220px;
+    height: 220px;
+    display: block;
+    border: 2px solid #0f0;
+    margin-right: 40px;
+    
+  
+  }
+
+  .about-text-container{
+    width: 750px;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #0f0;
+    padding: 20px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+  }
+
+  .about-text1{
+    color: #0f0;
+    font-size: 20px;
+
+  }
+  .about-title{
+    margin-bottom: 20px;
+    color: #0f0;
+    font-size: 40px;
+  }
+
+
+  /* Education section */
+  #education {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #111;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #5be909;
+  }
+  
+  .education-container{
+    background-color:#000;
+    padding: 40px;
+  }
+
+  .education-text1{
+    color: #0f0;
+    font-size: 20px;
+
+  }
+  .education-title{
+    color: #0f0;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .education-table{
+    width: 1100px;
+    border-color: #0f0;
+    border-style: solid;
+    font-size: 20px;
+  }
+  
+  /* Hobbies section */
+  #hobbies{
+    background-color: #111;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: green;
+    
+  }
+  .hobbies-container{
+    background-color: #000000;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    
+  }
+  .hobbies-pic-container img{
+    width: 220px;
+    height: 280px;
+    display: block;
+    border: 2px solid #0f0;
+    margin-right: 40px;
+  
+  }
+  .hobbies-pic-container2 img{
+    width: 220px;
+    height: 280px;
+    display: block;
+    border: 2px solid #0f0;
+    margin-right: 40px;
+    margin-top: 20px;
+  
+  }
+
+  .hobbies-text-container{
+    width: 950px;
+    height: 240px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #0f0;
+    padding: 20px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+  }
+  .hobbies-text-container2{
+    width: 950px;
+    height: 240px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #0f0;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255) ;
+    font-size: 20px;
+
+  }
+
+  .hobbies-text1{
+    color: #0f0;
+    font-size: 20px;
+
+  }
+  .hobbies-title{
+    margin-bottom: 20px;
+    color: #0f0;
+    font-size: 40px;
+  }
+
+
+
+  /* Contact section */
+  #contact {
+    background-color: #111;
+    padding: 40px;
+    text-align: center;
+  }
+  .contact-text{
+    margin-bottom: 10px;
+    color:#0f0
+    
+  }
+  .contact-title{
+    color: #0f0;
+    margin-bottom: 10px;
+
+  }
+  .contact-info-container {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-container a {
+    color: #0f0;
+    margin-bottom: 10px;
+  }
+  
+ 
+  /* Style the footer */
+  footer {
+    background-color: #000;
+    color: #0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
+  
