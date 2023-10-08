@@ -18,7 +18,7 @@ body, h1, h2, h3, p {
   }
   
   .greet {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bold;
     margin: 10px;
     color: #0f0;
@@ -29,6 +29,7 @@ body, h1, h2, h3, p {
   }
   
   .nav-links li {
+    font-weight: bold;
     display: inline;
     margin-right: 20px;
   }
@@ -36,7 +37,7 @@ body, h1, h2, h3, p {
   .nav-links a {
     text-decoration: none;
     color: #0f0;
-    font-size: 18px;
+    font-size: 36px;
     transition: color 0.3s;
   }
   
@@ -46,15 +47,16 @@ body, h1, h2, h3, p {
   
 
   .profile_text1 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #0f0;
   }
   
   .name {
-    font-size: 30px;
+    font-size: 80px;
     font-weight: bold;
+    font-style: italic; 
     margin-bottom: 20px;
     color: #0f0;
   }
@@ -63,25 +65,25 @@ body, h1, h2, h3, p {
   #profile {
     background-color: #111;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
     text-align: center;
     border-style: solid;
-    border-color: green;
+    border-color: #0f0;
     
   }
   
   .profile_pic_container img {
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     margin: 20px auto;
     display: block;
-    border: 2px solid #0f0;
+    border: 5px solid #0f0;
   }
   
   .profile_text2 {
-    font-size: 20px;
+    font-size: 40px;
     color: #0f0;
     margin-bottom: 10px;
   }
@@ -103,7 +105,7 @@ body, h1, h2, h3, p {
   
   .btn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 32px;
     margin: 0 10px;
     border: none;
     cursor: pointer;
@@ -122,184 +124,215 @@ body, h1, h2, h3, p {
   }
   
   .icon {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
     cursor: pointer;
   }
-  
+  .dropdown{
+    float: right;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 140px;
+  }
+  /*-------------------------------about-------------------------------------*/
   #about{
     background-color: #111;
-    padding: 40px;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 60px;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
     border-style: solid;
-    border-color: green;
+    border-color: #0f0;
     
   }
   .about-container{
     background-color: #000000;
     padding: 40px;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 500px 1fr;
+    max-width: 100%;
+    
     
   }
   .about-pic-container img{
-    width: 220px;
-    height: 220px;
+    width: 440px;
+    height: 440px;
     display: block;
-    border: 2px solid #0f0;
+    border: 8px solid #0f0;
     margin-right: 40px;
-    
+    max-width: 100%;
   
   }
 
   .about-text-container{
-    width: 750px;
-    height: 180px;
+    width: 1300px;
+    height: 370px;
     background-color: rgb(0, 0, 0);
-    border: 2px solid #0f0;
-    padding: 20px;
+    border: 4px solid #0f0;
+    padding: 40px;
     margin-left: 50px;
     color: rgb(255, 255, 255) ;
-    font-size: 20px;
+    font-size: 40px;
+    max-width: 100%;
   }
 
   .about-text1{
     color: #0f0;
-    font-size: 20px;
+    font-size: 40px;
 
   }
   .about-title{
     margin-bottom: 20px;
     color: #0f0;
-    font-size: 40px;
+    font-size: 80px;
   }
 
 
-  /* Education section */
+  /* ------------------------Education ----------------------------------*/
   #education {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
     background-color: #111;
-    padding: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
     border-style: solid;
-    border-color: #5be909;
+    border-color: #0f0;
   }
   
   .education-container{
     background-color:#000;
-    padding: 40px;
+    padding: 60px;
   }
 
   .education-text1{
     color: #0f0;
-    font-size: 20px;
+    font-size: 40px;
 
   }
   .education-title{
     color: #0f0;
-    font-size: 40px;
+    font-size: 80px;
     margin-bottom: 20px;
   }
   .education-table{
-    width: 1100px;
+    height: 80px;
+    width: 1900px;
     border-color: #0f0;
     border-style: solid;
-    font-size: 20px;
+    font-size: 30px;
   }
+  /* ---------------------------skills------------------------------ */
   
-  /* Hobbies section */
+  #skills{
+    background-color: #111;
+    padding: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 200px;
+    border-style: solid;
+    border-color: #0f0;
+  }
+  .skill-text1{
+    color: #0f0;
+    font-size: 40px;
+
+  }
+  .skill-title{
+    color: #0f0;
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .skill-table{
+    height: 80px;
+    width: 2000px;
+    border-color: #0f0;
+    border-style: solid;
+    font-size: 30px;
+  }
+  .skill-icon {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  /* ---------------------------Hobbies------------------------------ */
   #hobbies{
     background-color: #111;
-    padding: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 200px;
     border-style: solid;
-    border-color: green;
+    border-color: #0f0;
     
   }
   .hobbies-container{
     background-color: #000000;
-    padding: 40px;
+    padding: 60px;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 500px 1fr;
     
   }
   .hobbies-pic-container img{
-    width: 220px;
-    height: 280px;
+    width: 440px;
+    height: 560px;
     display: block;
-    border: 2px solid #0f0;
+    border: 4px solid #0f0;
     margin-right: 40px;
-  
-  }
-  .hobbies-pic-container2 img{
-    width: 220px;
-    height: 280px;
-    display: block;
-    border: 2px solid #0f0;
-    margin-right: 40px;
-    margin-top: 20px;
   
   }
 
   .hobbies-text-container{
-    width: 950px;
-    height: 240px;
+    width: 1300px;
+    height: 520px;
     background-color: rgb(0, 0, 0);
-    border: 2px solid #0f0;
+    border: 4px solid #0f0;
     padding: 20px;
-    margin-left: 50px;
+    margin-bottom: 50px;
     color: rgb(255, 255, 255) ;
-    font-size: 20px;
-  }
-  .hobbies-text-container2{
-    width: 950px;
-    height: 240px;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid #0f0;
-    padding: 20px;
-    margin-left: 50px;
-    margin-top: 20px;
-    color: rgb(255, 255, 255) ;
-    font-size: 20px;
-
+    font-size: 35px;
   }
 
   .hobbies-text1{
     color: #0f0;
-    font-size: 20px;
+    font-size: 40px;
 
   }
   .hobbies-title{
     margin-bottom: 20px;
     color: #0f0;
-    font-size: 40px;
+    font-size: 80px;
   }
 
 
 
-  /* Contact section */
+  /* ---------------------------Contact----------------------- */
   #contact {
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
     background-color: #111;
     padding: 40px;
     text-align: center;
+    border-style: solid;
+    border-color: #0f0;
   }
   .contact-text{
+    font-size: 30px;
     margin-bottom: 10px;
     color:#0f0
     
   }
   .contact-title{
+    font-size: 60px;
     color: #0f0;
     margin-bottom: 10px;
 
   }
   .contact-info-container {
+    font-size: 30px;
     margin-bottom: 20px;
   }
   
