@@ -222,6 +222,7 @@ body, h1, h2, h3, p {
     border-color: #0f0;
     border-style: solid;
     font-size: 30px;
+    text-align: center;
   }
   /* ---------------------------skills------------------------------ */
   
@@ -313,6 +314,7 @@ body, h1, h2, h3, p {
     margin-top: 200px;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 150px;
     background-color: #111;
     padding: 40px;
     text-align: center;
